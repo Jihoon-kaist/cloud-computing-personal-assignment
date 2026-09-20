@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f7f5f0;
+  font-family: "Pretendard", -apple-system, "Malgun Gothic", "Apple SD Gothic Neo",
+    "Noto Sans KR", sans-serif;
+  color: #1a2230;
+}
+
+.app {
+  max-width: 480px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.topnav {
+  margin-bottom: 20px;
+}
+
+.topnav a {
+  color: #2f6f6a;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.topnav a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 6px;
+}
+
+.api-info {
+  font-size: 13px;
+  color: #43506a;
+  margin-bottom: 20px;
+}
+
+.api-info code {
+  background: #ecece4;
+  color: #b4532a;
+  padding: 2px 6px;
+  border-radius: 5px;
+}
+
+.error {
+  background: #fdf3e7;
+  border-left: 4px solid #e0a86a;
+  padding: 10px 14px;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #6f4a1f;
+}
+
+.memo-form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.memo-form input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #dfd9cd;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.memo-form button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  background: #2f6f6a;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.memo-form button:hover {
+  background: #24544f;
+}
+
+.memo-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.memo-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  border: 1px solid #dfd9cd;
+  border-radius: 8px;
+  padding: 10px 14px;
+  margin-bottom: 8px;
+}
+
+.memo-list li.empty {
+  color: #8a94a6;
+  justify-content: center;
+  background: transparent;
+  border-style: dashed;
+}
+
+.memo-list button {
+  border: none;
+  background: transparent;
+  color: #b4532a;
+  cursor: pointer;
+  font-size: 13px;
+}

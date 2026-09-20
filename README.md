@@ -69,6 +69,6 @@ npm run dev                   # http://localhost:5173
 
 ## 배포 주소
 
-- GitHub 저장소: (배포 후 채워 넣기)
+- GitHub 저장소: https://github.com/Jihoon-kaist/cloud-computing-personal-assignment
 - Vercel 배포 페이지: (배포 후 채워 넣기)
 - 백엔드 Swagger UI: (배포 후 채워 넣기)
